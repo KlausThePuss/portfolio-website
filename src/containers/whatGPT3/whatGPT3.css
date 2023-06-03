@@ -15,7 +15,7 @@
     background: -webkit-radial-gradient(
         circle at 30% -100%,
         #40135f 25%,
-        #5f39a0 100%
+        #5f39a0 100%e
     );
 
     /* opera 11.10+ */
@@ -97,8 +97,37 @@
 .gpt3__whatgpt3-container .gpt3__features-container__feature-text {
     margin-top: 0.5rem;
 }
+@media screen and (max-width: 905px) {
+    .gpt3__whatgpt3-heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-@media screen and (max-width: 850px) {
+    .gpt3__whatgpt3-heading p {
+        margin: 1rem 0 0 0;
+    }
+}
+@media screen and (max-width: 736px) {
+    .gpt3__whatgpt3-container {
+        flex-direction: column;
+        margin: 0 2rem 0 0;
+    }
+}
+@media screen and (max-width: 608px) {
+    .gpt3__whatgpt3-heading h1 {
+        font-size: 29px;
+        line-height: 37px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gpt3__whatgpt3-heading h1 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+}
+
+/* @media screen and (max-width: 850px) {
     .gpt3__whatgpt3-heading {
         flex-direction: column;
         align-items: flex-start;
@@ -132,3 +161,4 @@
         min-width: 100%;
     }
 }
+ */
