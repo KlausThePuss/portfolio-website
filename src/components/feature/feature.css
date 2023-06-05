@@ -8,14 +8,14 @@
 }
 
 .gpt3__features-container__feature-title {
-    flex: 1;
+    flex: 2;
     max-width: 180px;
     margin-right: 2rem;
 }
 
 .gpt3__features-container__feature-text {
-    flex: 2;
-    max-width: 390px;
+    flex: 4;
+    max-width: 400px;
     display: flex;
 }
 .gpt3__features-container__feature-title h1 {
