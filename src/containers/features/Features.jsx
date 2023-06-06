@@ -37,6 +37,7 @@ const Features = () => {
                         title={item.title}
                         text={item.text}
                         key={item.title + index}
+                        s
                     />
                 ))}
                 ;

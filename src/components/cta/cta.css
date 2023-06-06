@@ -42,9 +42,10 @@
     padding: 2rem;
     border-radius: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     margin: 4rem 5rem 4rem 5rem;
+    flex-direction: row;
 }
 
 .gpt3__cta-content_xd {
@@ -73,8 +74,14 @@
     font-weight: 800;
     color: #ffffff;
 }
+.gpt3__cta-content_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 2rem;
+}
+
 .gpt3__cta-content_button button {
-    flex: 2;
     padding: 0.6rem 1.3rem 0.6rem 1.3rem;
     font-size: 18px;
     font-weight: bold;
@@ -86,7 +93,6 @@
     background: #000;
     color: #fff;
     letter-spacing: 0.5px;
-    margin: 0 0 0 2rem;
 }
 .gpt3__cta-content_button button:hover {
     background: #a0fb7b;
