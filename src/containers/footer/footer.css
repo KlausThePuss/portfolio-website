@@ -1,0 +1,135 @@
+.gpt3__footer {
+    color: #fff;
+
+    display: flex;
+    font-family: var(--font-family);
+    background: var(--color-footer);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+.gpt3__footer-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.gpt3__footer-heading h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.gpt3__footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0 6rem 0;
+}
+.gpt3__footer-button button {
+    background: none;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    outline: none;
+    border: 1px solid #fff;
+    font-family: var(--font-family);
+    font-size: 18px;
+    cursor: pointer;
+}
+.gpt3__footer-button button:hover {
+    background: #b9fab5;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.gpt3__footer-content-all {
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #0e0117;
+}
+.gpt3__footer-footer {
+    display: flex;
+    flex: 0.8;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gpt3__footer-footer_links {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.gpt3__footer-footer_company {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.gpt3__footer-footer_getInTouch {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.gpt3__footer-content-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.gpt3__footer-content-logo img {
+    width: 40%;
+}
+
+.gpt3__footer-footer_getInTouch p1,
+.gpt3__footer-footer_company p1,
+.gpt3__footer-footer_links p1 {
+    font-size: 12px;
+    margin: 0.4rem 0;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.gpt3__footer-content-logo p1 {
+    font-size: 12px;
+    margin: 1rem 0;
+
+    font-weight: 500;
+}
+.gpt3__footer-footer_getInTouch h2,
+.gpt3__footer-footer_company h2,
+.gpt3__footer-footer_links h2,
+.gpt3__footer-content-logo h2 {
+    font-size: 18px;
+    margin: 0.4rem 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.gpt3__footer-footer_DCMA {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    background-color: #0e0117;
+    margin: 0rem 0 1rem 0;
+    padding: 0.5rem 1rem;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.gpt3__footer-footer_DCMA p {
+    font-size: 12px;
+    margin: 0.4rem 0;
+
+    font-weight: 500;
+}
+.gpt3__footer-footer_DCMA span {
+    cursor: pointer;
+}

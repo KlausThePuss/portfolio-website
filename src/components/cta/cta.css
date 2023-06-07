@@ -95,7 +95,7 @@
     letter-spacing: 0.5px;
 }
 .gpt3__cta-content_button button:hover {
-    background: #a0fb7b;
+    background: /* #cbfcc8 */ #b9fab5;
     color: #052000;
 }
 @media screen and (max-width: 1054px) {

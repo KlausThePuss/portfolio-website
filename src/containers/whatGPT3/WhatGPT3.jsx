@@ -37,7 +37,7 @@ const WhatGPT3 = () => {
                     <Feature
                         title={item.title}
                         text={item.text}
-                        key={item.titte + index}
+                        key={item.title + index}
                     />
                 ))}
             </div>
