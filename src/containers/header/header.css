@@ -78,6 +78,10 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.gpt3__header-content__input button:active {
+    color: #ff5630;
+    background-color: #f1f1f1;
+}
 
 .gpt3__header-content_people {
     width: 100%;

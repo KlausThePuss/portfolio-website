@@ -55,17 +55,6 @@
     font-weight: bold;
 }
 
-/*  botton animation */
-
-.xd {
-}
-.xd:hover {
-    color: #ff5630;
-    background-color: #f1f1f1;
-}
-
-/*  botton animation */
-
 .gpt3__navbar-links_container :hover {
     color: #ffffff;
     text-shadow: 0px 0px 4px #ffffff;
@@ -116,7 +105,7 @@
     user-select: none;
     background-color: #ff5630;
 }
-.gpt3__navbar-sign button:hover {
+.gpt3__navbar-sign button:active {
     color: #ff5630;
     background-color: #f1f1f1;
 }
@@ -178,7 +167,7 @@
 .gpt3__navbar-menu_container-links-sign button {
     font-size: 14px;
 }
-.gpt3__navbar-menu_container-links-sign button:hover {
+.gpt3__navbar-menu_container-links-sign button:active {
     color: #ff5630;
     background-color: #f1f1f1;
 }
