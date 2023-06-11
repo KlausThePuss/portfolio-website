@@ -44,7 +44,14 @@ const Footer = () => {
             </div>
             <div className="gpt3__footer-footer_DCMA">
                 <p>
-                    Developed by <span>@KlausThePuss</span>
+                    Developed by
+                    <a
+                        href="https://twitter.com/KlausThePuss"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        @KlausThePuss
+                    </a>
                 </p>
                 <p>@2021 GPT-3. All rights reserved.</p>
             </div>

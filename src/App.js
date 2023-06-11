@@ -11,6 +11,7 @@ import {
     Possibility,
     WhatGPT3,
 } from "./containers";
+import Scroll2TopButton from "./components/Scroll2Top/Scroll2TopButton";
 
 const App = () => {
     return (
@@ -26,6 +27,7 @@ const App = () => {
             <CTA />
             <Blog />
             <Footer />
+            <Scroll2TopButton />
         </div>
     );
 };

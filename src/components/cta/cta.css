@@ -90,13 +90,16 @@
     outline: none;
     border: none;
     cursor: pointer;
-    background: #000;
+    background-color: #000;
     color: #fff;
     letter-spacing: 0.5px;
 }
+.gpt3__cta-content_button button:hover {
+    background-color: #222222;
+}
 .gpt3__cta-content_button button:active {
-    background-color: /* #cbfcc8 */ #d1facf;
-    color: #052000;
+    background-color: #eee;
+    color: #000;
 }
 @media screen and (max-width: 1054px) {
     .gpt3__cta {

@@ -30,7 +30,7 @@
     margin: 1rem 0 0 0;
 }
 .gpt3__features-heading p:hover {
-    text-shadow: 0px 0px 2px #000000, 0px 0px 8px #c32bff;
+    text-shadow: 0px 0px 5px #000000, 0px 0px 6px #c32bff;
 }
 
 .gpt3__features-container {
