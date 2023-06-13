@@ -1,33 +1,32 @@
 .scroll2Top {
     display: flex;
-    align-items: center;
-    justify-content: center;
+
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
 }
 
 .scroll2Top button {
-    padding: 15px 15px 14px 15px;
+    display: flex;
+    padding: 15px 15px 15px 15px;
     border-radius: 50%;
     border: none;
     outline: none;
     cursor: pointer;
-    position: fixed;
-    bottom: 35px;
-    right: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
+
     background-color: #ff6542;
-    font-family: var(--font-family);
 }
 .scroll2Top button:hover {
     background-color: #fc7f63;
+    padding: 14px 14px 14px 14px;
 }
 
 .scroll2Top img {
-    width: 20px;
-    height: 20px;
+    width: 19px;
+    height: 19px;
     justify-content: center;
     align-items: center;
     filter: invert(100%) sepia(8%) saturate(0%) hue-rotate(75deg)
         brightness(106%) contrast(110%);
+    user-select: none;
 }

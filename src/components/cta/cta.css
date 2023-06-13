@@ -61,6 +61,7 @@
 
     color: #ffffff;
     cursor: pointer;
+    user-select: none;
 }
 
 .gpt3__cta-content_xd h1:hover {
@@ -102,25 +103,41 @@
     color: #000;
 }
 @media screen and (max-width: 1054px) {
-    .gpt3__cta {
+    .gpt3__cta-content {
         margin: 2rem 3rem 2rem 3em;
     }
+    .gpt3__cta-content_button button {
+        font-size: 16px;
+    }
 }
-@media screen and (max-width: 684px) {
+@media screen and (max-width: 948px) {
+    .gpt3__cta-content {
+        padding: 1.5rem 2rem 1.5rem 2rem;
+    }
+}
+@media screen and (max-width: 686px) {
     .gpt3__cta-content {
         flex-direction: column;
-        margin: 0;
-        justify-content: center;
-        align-items: center;
     }
     .gpt3__cta-content_button button {
         margin: 0;
     }
     .gpt3__cta-content_button {
-        margin: 2rem 0 0 0;
+        margin: 1rem 0 0 0;
     }
     .gpt3__cta-content_xd {
-        align-items: center;
         justify-content: center;
+    }
+}
+@media screen and (max-width: 550px) {
+    .gpt3__cta-content {
+        margin: 0.4rem 1.5rem 2rem 1.5rem;
+    }
+}
+@media screen and (max-width: 472px) {
+    .gpt3__cta-content_xd p {
+        font-size: 21px;
+
+        line-height: 35px;
     }
 }

@@ -39,7 +39,6 @@ const Features = () => {
                         key={item.title + index}
                     />
                 ))}
-                ;
             </div>
         </div>
     );

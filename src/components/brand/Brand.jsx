@@ -4,7 +4,7 @@ import { shopify, google, dropbox, slack } from "./img-imports";
 
 const Brand = () => {
     return (
-        <div className="gpt3__brand section__padding ">
+        <div className="gpt3__brand  ">
             <div>
                 <img src={shopify} alt="shopify" />
             </div>

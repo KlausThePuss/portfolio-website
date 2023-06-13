@@ -13,7 +13,7 @@ const Article = ({ imgBlog, date, title }) => {
                         <p1> {date} </p1>
                     </div>
                     <div className="gpt3__blog-container_article-tittle">
-                        <h1> {title} </h1>
+                        <h5> {title} </h5>
                     </div>
                 </div>
                 <div className="gpt3__blog-container_article-fullArticle">
