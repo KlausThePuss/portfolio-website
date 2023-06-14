@@ -14,10 +14,9 @@
     outline: none;
     cursor: pointer;
 
-    background-color: #ff6542;
+    background-color: #409d6e;
 }
 .scroll2Top button:hover {
-    background-color: #fc7f63;
     padding: 14px 14px 14px 14px;
 }
 

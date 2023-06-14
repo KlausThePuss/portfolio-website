@@ -86,7 +86,7 @@
     outline: none;
     text-decoration: none;
     user-select: none;
-    background-color: #ff6542;
+    background-color: #298859;
 }
 
 .gpt3__navbar-sign button {
@@ -103,13 +103,21 @@
     outline: none;
     text-decoration: none;
     user-select: none;
-    background-color: #ff6542;
+    background-color: #3baa73;
 }
+.gpt3__navbar-menu_container-links-sign button:hover {
+    background-color: #409d6e;
+}
+.gpt3__navbar-menu_container-links-sign button:active {
+    color: #3baa73;
+    background-color: #dedede;
+}
+
 .gpt3__navbar-sign button:hover {
-    background-color: #fc7f63;
+    background-color: #5bbc8c;
 }
 .gpt3__navbar-sign button:active {
-    color: #ff6542;
+    color: #3baa73;
     background-color: #eee;
 }
 
@@ -168,13 +176,6 @@
 }
 .gpt3__navbar-menu_container-links-sign button {
     font-size: 14px;
-}
-.gpt3__navbar-menu_container-links-sign button:hover {
-    background-color: #fc7f63;
-}
-.gpt3__navbar-menu_container-links-sign button:active {
-    color: #ff6542;
-    background-color: #eee;
 }
 
 @media screen and (max-width: 1054px) {

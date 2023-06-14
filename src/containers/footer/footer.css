@@ -44,15 +44,15 @@
     outline: none;
 }
 .gpt3__footer-button button:hover {
-    background-color: #fc7f63;
+    background-color: #409d6e;
     color: #fff;
-    border: 1.5px solid #fc7f63;
+    border: 1.5px solid #409d6e;
     outline: none;
 }
 .gpt3__footer-button button:active {
-    background-color: #eee;
-    color: #ff6542;
-    border: 1.5px solid #eee;
+    background-color: #dedede;
+    color: #20583d;
+    border: 1.5px solid #dedede;
     outline: none;
 }
 
@@ -127,7 +127,7 @@
     font-size: 18px;
     margin: 0 0 0.4rem 0;
     font-weight: bold;
-    color: #fc7f63;
+    color: #70e2a9;
 }
 .gpt3__footer-footer_getInTouch,
 .gpt3__footer-footer_company,
@@ -157,8 +157,8 @@
     font-size: 13px;
 }
 .gpt3__footer-footer_DCMA a:hover {
-    color: #e6ff00;
-    text-shadow: 0px 0px 5px #000000, 0px 0px 1px #e6ff00;
+    color: #70e2a9;
+    text-shadow: 0px 0px 5px #000000, 0px 0px 1px #70e2a9;
 }
 .gpt3__footer-footer_DCMA a {
     margin: 3px;

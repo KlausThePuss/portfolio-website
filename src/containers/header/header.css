@@ -63,7 +63,7 @@
     border: none;
     outline: none;
     min-height: 50px;
-    background-color: #ff6542;
+    background-color: #298859;
     font-family: var(--font-family);
     font-weight: 900;
     font-size: 17px;
@@ -76,11 +76,11 @@
     border-bottom-right-radius: 10px;
 }
 .gpt3__header-content__input button:hover {
-    background-color: #fc7f63;
+    background-color: #409d6e;
 }
 .gpt3__header-content__input button:active {
-    color: #ff6542;
-    background-color: #eee;
+    color: #298859;
+    background-color: #dedede;
 }
 
 .gpt3__header-content_people {
