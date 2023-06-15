@@ -10,14 +10,14 @@ const Article = ({ imgBlog, date, title }) => {
             <div className="gpt3_blog-content">
                 <div className="gpt3__blog-container-date">
                     <div className="gpt3__blog-container_article-date">
-                        <p1> {date} </p1>
+                        <h1> {date} </h1>
                     </div>
                     <div className="gpt3__blog-container_article-tittle">
                         <h5> {title} </h5>
                     </div>
                 </div>
                 <div className="gpt3__blog-container_article-fullArticle">
-                    <p2>Read Full Article</p2>
+                    <h2>Read Full Article</h2>
                 </div>
             </div>
         </div>

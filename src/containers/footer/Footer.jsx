@@ -16,29 +16,29 @@ const Footer = () => {
             <div className="gpt3__footer-content-all">
                 <div className="gpt3__footer-content-logo">
                     <img src={logo} alt="logo"></img>
-                    <p1>
+                    <h3>
                         Crechterwoord K12 182 DK Alknjkcb,All Rights Reserved
-                    </p1>
+                    </h3>
                 </div>
                 <div className="gpt3__footer-footer">
                     <div className="gpt3__footer-footer_links">
                         <h2>Links</h2>
-                        <p1>Overons</p1>
-                        <p1>Social Media</p1>
-                        <p1>Counters</p1>
-                        <p1>Contact</p1>
+                        <h3>Overons</h3>
+                        <h3>Social Media</h3>
+                        <h3>Counters</h3>
+                        <h3>Contact</h3>
                     </div>
                     <div className="gpt3__footer-footer_company">
                         <h2>Company</h2>
-                        <p1>Terms & Conditions</p1>
-                        <p1>Privacy Policy</p1>
-                        <p1>Contact</p1>
+                        <h3>Terms & Conditions</h3>
+                        <h3>Privacy Policy</h3>
+                        <h3>Contact</h3>
                     </div>
                     <div className="gpt3__footer-footer_getInTouch">
                         <h2>Get in touch</h2>
-                        <p1>Crechterwoord K12 182 DK Alknjkcb</p1>
-                        <p1>085-132567</p1>
-                        <p1>info@payme.net</p1>
+                        <h3>Crechterwoord K12 182 DK Alknjkcb</h3>
+                        <h3>085-132567</h3>
+                        <h3>info@payme.net</h3>
                     </div>
                 </div>
             </div>
