@@ -19,6 +19,7 @@
     height: 76.02px;
     margin: 0 0 0 0;
     user-select: none;
+    pointer-events: none;
 }
 
 .gpt3__navbar-links_container {
@@ -86,7 +87,7 @@
     outline: none;
     text-decoration: none;
     user-select: none;
-    background-color: #298859;
+    background-color: var(--color-button);
 }
 
 .gpt3__navbar-sign button {
@@ -103,7 +104,7 @@
     outline: none;
     text-decoration: none;
     user-select: none;
-    background-color: #3baa73;
+    background-color: var(--color-button);
 }
 .gpt3__navbar-menu_container-links-sign button:hover {
     background-color: #409d6e;

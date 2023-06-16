@@ -13,14 +13,18 @@
     border: none;
     outline: none;
     cursor: pointer;
+    user-select: none;
 
     background-color: #409d6e;
 }
 .scroll2Top button:hover {
     padding: 14px 14px 14px 14px;
+    user-select: none;
 }
 
 .scroll2Top img {
+    pointer-events: none;
+    user-select: none;
     width: 19px;
     height: 19px;
     justify-content: center;

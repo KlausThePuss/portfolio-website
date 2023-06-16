@@ -15,8 +15,8 @@ import Scroll2TopButton from "./components/Scroll2Top/Scroll2TopButton";
 
 const App = () => {
     return (
-        <div className="App">
-            <div className="gradient__bg">
+        <div className="App gradient__bg">
+            <div>
                 <Navbar />
                 <Header />
             </div>

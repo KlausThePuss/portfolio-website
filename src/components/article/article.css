@@ -5,8 +5,13 @@
     flex-direction: column;
     font-family: var(--font-family);
     color: #fff;
-    background: var(--color-footer);
+    background: var(--color-panel);
+    cursor: pointer;
 }
+.gpt3__blog-container_article:hover {
+    background: #635936;
+}
+
 .gpt3__blog-container_article-img {
     width: 100%;
     height: 100%;
@@ -16,6 +21,7 @@
     width: 100%;
     height: 100%;
     user-select: none;
+    pointer-events: none;
 }
 
 .gpt3_blog-content {
