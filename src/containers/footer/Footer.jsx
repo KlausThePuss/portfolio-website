@@ -36,7 +36,7 @@ const Footer = () => {
                     </div>
                     <div className="gpt3__footer-footer_getInTouch">
                         <h2>Get in touch</h2>
-                        <h3>Crechterwoord K12 182 DK Alknjkcb</h3>
+                        <h3>Crechterwoord</h3>
                         <h3>085-132567</h3>
                         <h3>info@payme.net</h3>
                     </div>

@@ -26,7 +26,7 @@
     height: 100%;
 }
 
-.gpt3__blog-container_article-date p1 {
+.gpt3__blog-container_article-date h1 {
     font-size: 14px;
     display: flex;
     justify-content: flex-start;
@@ -43,7 +43,7 @@
     margin: 0.5rem 0 0 0;
 }
 
-.gpt3__blog-container_article-fullArticle p2 {
+.gpt3__blog-container_article-fullArticle h2 {
     font-size: 14px;
     display: flex;
     justify-content: flex-start;

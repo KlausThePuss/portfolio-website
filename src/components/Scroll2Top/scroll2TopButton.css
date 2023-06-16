@@ -1,6 +1,6 @@
 .scroll2Top {
     display: flex;
-
+    user-select: none;
     position: fixed;
     bottom: 35px;
     right: 20px;
